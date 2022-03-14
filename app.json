@@ -12,54 +12,54 @@
     "repository": "https://github.com/levina-lab/video-stream",
     "success_url": "https://t.me/dlwrml",
     "env": {
-        "API_ID": {
+        "ايبي ايدي": {
             "description": "your API_ID from my.telegram.org",
             "required": true
         },
-        "API_HASH": {
+        "ايبي هاش": {
             "description": "your API_HASH from my.telegram.org",
             "required": true
         },
-        "BOT_TOKEN": {
+        "توكن البوت": {
             "description": "your bot token from @BotFather",
             "required": true
         },
-        "BOT_USERNAME": {
+        "معرف البوت": {
             "description": "your bot username from @BotFather",
             "required": true
         },
-        "BOT_NAME": {
+        "اسم البوت": {
             "description": "fill with your bot name from @BotFather",
             "required": true
         },
-        "ASSISTANT_NAME": {
+        "معرف حساب المساعد": {
             "description": "fill with the assistant username account without @",
             "required": true
         },
-        "SESSION_NAME": {
+        "كود بايروجرام": {
             "description": "fill with the pyrogram String Session",
             "required": true
         },
-        "SUDO_USERS": {
+        "ايدي المطور": {
             "description": "list of user ids to be added to sudo member list, or just fill with your id",
             "required": true
         },
-        "GROUP_SUPPORT": {
+        "قناه السورس": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
             "value": "VeezSupportGroup"
         },
-        "UPDATES_CHANNEL": {
+        "قناه البوت": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
             "value": "levinachannel"
         },
-        "OWNER_NAME": {
+        "معرف مطور البوت": {
             "description": "fill with your telegram account username without @",
             "required": true,
             "value": "dlwrml"
         },
-        "ALIVE_NAME": {
+        "اسم حسابك": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
             "value": "Levina"
