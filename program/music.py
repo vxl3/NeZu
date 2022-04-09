@@ -44,7 +44,8 @@ async def play(c: Client, m: Message):
     await m.delete()
     do = requests.get(f"https://api.telegram.org/bot5216216166:AAFSi-YIDv2vtMAtg6O34NzItkUDpPIHknQ/getChatMember?chat_id=@vrrrrvr&user_id={m.from_user.id}").text
     if do.count("left") or do.count("Bad Request: user not found"):
-        await m.reply_text("اشترك بقناة البوت لتستطيع تشغيل الاغاني \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n - @vrrrrvr . ")
+        await m.reply_text("᥀︙عزيزي انت غيࢪ مشتࢪك بقناه البوت
+᥀︙اشتࢪك لتستطيع التشغيل \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n - @VrrrrVr ↫ ")
     else:
         replied = m.reply_to_message
         chat_id = m.chat.id
