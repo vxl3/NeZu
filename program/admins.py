@@ -15,12 +15,12 @@ from pyrogram.types import (
 
 
 bttn = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🔙 رجوع", callback_data="cbmenu")]]
+    [[InlineKeyboardButton("• رجوع •", callback_data="cbmenu")]]
 )
 
 
 bcl = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("🗑 اغلاق", callback_data="cls")]]
+    [[InlineKeyboardButton("• اغلاق •", callback_data="cls")]]
 )
 
 
@@ -46,10 +46,10 @@ async def skip(client, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="• القائمه", callback_data="cbmenu"
+                    text="• القائمه •", callback_data="cbmenu"
                 ),
                 InlineKeyboardButton(
-                    text="• اغلاق", callback_data="cls"
+                    text="• اغلاق •", callback_data="cls"
                 ),
             ]
         ]
